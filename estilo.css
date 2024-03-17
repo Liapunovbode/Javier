@@ -1,0 +1,461 @@
+/* importamos las fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&family=Yellowtail&display=swap');
+*{
+    font-family: "Titillium Web";
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* SECCION INICIO */
+.inicio{
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
+    url("img/dinamometro.jpg");
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+.inicio .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 0 10px;
+}
+.inicio .contenido-seccion header{
+    padding: 30px;
+}
+/* menu lateral */
+.inicio .contenido-seccion header nav{
+    position: fixed;
+    margin-left: 60px;
+    background-color: #FFCC00;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+    z-index: 99;
+    display: none;
+}
+.inicio .contenido-seccion header nav a{
+    display: block;
+    color:#000000;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+/* ****** */
+.inicio .contenido-seccion header .logo{
+    font-weight: bold;
+    font-size: 2.5rem;
+    font-family: "Yellowtail";
+    text-shadow: 0 0 35px #fff;
+    color: #FFCC00;
+    padding: 5px 12px; 
+    background-color: #000000;
+    display: inline-block;
+    border: 2px solid #FFCC00;
+    border-radius: 10px;
+}
+.inicio .contenido-seccion header .logo .color{
+    color: #FFCC00;
+    font-family: "Yellowtail";
+}
+.inicio .contenido-seccion header .nav-bar{
+    position: fixed;
+    background-color: #FFCC00;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    cursor: pointer;
+    transition: .3s;
+}
+.inicio .contenido-seccion header .nav-bar:hover{
+    box-shadow: 0 0 35px #fff;
+}
+.inicio .contenido-seccion .info{
+    padding-bottom: 130px;
+}
+.inicio .contenido-seccion .info h1{
+    font-size: 3rem;
+    letter-spacing: 5px;
+    background-color: #000000;
+    color:#FFCC00;
+    display: inline-block;
+    padding: 5px 10px; 
+    border: 2px solid #FFCC00;
+    border-radius: 10px;
+}
+.inicio .contenido-seccion .info h2{
+    font-weight: normal;
+    font-size: 30px;
+    margin-top: -10px;
+    letter-spacing: 2px;
+    color:#FFCC00;
+    background-color: #000000;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px; 
+    border: 2px solid #FFCC00;
+    border-radius: 10px;
+}
+.inicio .contenido-seccion .info .redes{
+    margin: 20px 0;
+}
+.inicio .contenido-seccion .info .redes a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #000;
+    color: #FFCC00;
+    border: 1px solid #FFCC00;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 5px;
+    transition: .3s;
+    margin-right: 20px; /* separación horizontal entre iconos*/
+}
+.inicio .contenido-seccion .info .redes a:hover{
+    color: #fff;
+    background-color: #940253;
+    box-shadow: 0 0 20px #fff;
+}
+.inicio .contenido-seccion .foto{
+    position: relative;
+}
+.inicio .contenido-seccion .foto img{
+    max-width: 200px;
+    border-radius: 50%;
+    border: 5px solid #FFCC00;
+    position: absolute;
+    left: 50%;
+    top: -100px;
+    transform: translateX(-50%);
+}
+/* estilos generales */
+.titulo-seccion{
+    font-family: "Yellowtail";
+    font-size: 1.5rem;
+}
+/* SECCION SOBRE MI */
+.sobremi{
+    background-color: #e6e6e9;
+    padding: 140px 0 100px 0;
+    /*text-align: justify;*/
+}
+.sobremi .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+    text-align:justify;
+}
+.sobremi .contenido-seccion h2{
+    font-size: 30px;
+    background-color: #000000;
+    display: inline-block;
+    padding: 5px 10px; 
+    border: 2px solid #FFCC00;
+    border-radius: 10px;
+    color:#FFCC00;
+}
+.sobremi .contenido-seccion h3{
+    text-transform: uppercase;
+    font-size: 30px;
+    background-color: #000000;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px; 
+    border: 2px solid #FFCC00;
+    border-radius: 10px;
+    color:#FFCC00;
+}
+.sobremi .contenido-seccion .especial{
+    color:#FFCC00;
+    font-weight: bold;
+    margin-top: 15px;
+    background-color: #000000;
+    display: inline-block;
+    text-align: center; 
+    border: 2px solid #FFCC00;
+    border-radius: 10px;
+    padding: 5px 10px; 
+}
+.sobremi .contenido-seccion p{
+    max-width: 700px;
+    margin: auto;
+    color: #666;
+    text-align: justify;
+}
+.sobremi .contenido-seccion .fila{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    text-align: center;
+    margin-right:40px;
+}
+.sobremi .contenido-seccion .fila .col{
+    width: calc(80% - 20px); /* Establece un ancho de aproximadamente un tercio del contenedor, menos el margen entre columnas */
+    margin-right: 20px; /* Ajusta el espacio horizontal entre columnas */
+}
+.sobremi .contenido-seccion .fila .col i{
+    color: #FFCC00;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #FFCC00;
+    background-color: #000000;
+    line-height: 40px;
+    border-radius: 50%;
+}
+.sobremi .contenido-seccion .fila .col span{
+    display: block;
+    font-weight: bold;
+    margin: 8px 0;
+}
+.sobremi .contenido-seccion .fila .col ul {
+    margin-top: 20px; /* Espacio superior */
+    margin-bottom: 20px; /* Espacio inferior */
+    text-align: justify; /* Justificación del texto */
+    /*width: 240%; /* Aumenta el ancho de la columna al 40% del contenedor */
+    /*display: inline-block; /* Convertir el elemento en un bloque en línea */
+    /*max-width: 100%; /* Establecer un ancho máximo del 100% */
+    width: 80%; /* Ajusta el ancho de la lista al 80% del contenedor */
+    white-space: nowrap; /* Evitar saltos de línea */
+}
+.sobremi .contenido-seccion .fila .col .titulo-detalle {
+    background-color: #FFCC00; /* Color de fondo */
+    padding: 5px 10px; /* Ajusta el espacio interno del fondo */
+    border-radius: 5px; /* Opcional: agrega bordes redondeados */
+    border: 2px solid #000000; /* Borde sólido de 2 píxeles en color negro */
+    text-align: center; /* Justificación del texto */
+    white-space: nowrap; /* Evitar saltos de línea */
+    /*display: inline-block;*/
+}
+
+
+/* SECCION HABILIDADES */
+.habilidades{
+    padding: 80px 0 100px 0;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
+    url("img/estator.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    color: #FFCC00;
+    font-weight: bold;
+    font-size: 1rem
+}
+.habilidades .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.habilidades .contenido-seccion h3{
+    text-transform: uppercase;
+    font-size: 30px;
+    background-color: #000000;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px; 
+    border: 2px solid #FFCC00;
+    border-radius: 10px;
+}
+.habilidades .contenido-seccion h2{
+    background-color: #000000;
+    display:inline-block;
+    padding: 5px 10px;
+    border: 2px solid #FFCC00;
+    border-radius: 10px; 
+}
+.habilidades .contenido-seccion .fila{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.habilidades .contenido-seccion .fila .col{
+    width: 47%;
+    text-align: left;
+}
+.habilidades .contenido-seccion .fila .col .cont-barra{
+    display: flex;
+    align-items: center;
+}
+.habilidades .contenido-seccion .barra{
+    display: flex;
+    border: 1px solid #FFCC00;
+    padding: 2px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+.habilidades .contenido-seccion .barra .e{
+    background-color:#F2F3F4;
+    width: 20px;
+    height: 30px;
+    margin-right: 2px;
+}
+.habilidades .contenido-seccion .fila .col span {
+    background-color: black;
+    color:#FFCC00;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 10px; /* Espacio inferior entre los elementos */
+    border: 2px solid #FFCC00;
+}
+/* SECCION RESUMEN */
+.resumen{
+    background-color: #e6e6e6;
+    padding: 140px 0 100px 0;
+    text-align: center;
+}
+.resumen .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.resumen .contenido-seccion h2{
+    text-transform: uppercase;
+    font-size: 20px;
+    background-color: #000000;
+    display: inline-block;
+    color:#FFCC00;
+    padding: 5px 10px; 
+    border: 2px solid #FFCC00;
+    border-radius: 10px;
+}
+.resumen .contenido-seccion h3{
+    text-transform: uppercase;
+    font-size: 30px;
+    background-color: #000000;
+    display: inline-block;
+    color:#FFCC00;
+    margin-top: 10px;
+    padding: 5px 10px; 
+    border: 2px solid #FFCC00;
+    border-radius: 10px;
+}
+.resumen .contenido-seccion .info{
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.resumen .contenido-seccion .info .col{
+    width: 45%;
+}
+.resumen .contenido-seccion .info .col .titulo{
+    display: inline-block;
+    color: #000000;
+    font-weight: bold;
+    border: 2px solid #000000;
+    padding: 10px;
+    background-color: #FFCC00;
+    border-radius: 10px;
+}
+.resumen .contenido-seccion .info .col table{
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+.resumen .contenido-seccion .info .col table .datos{
+    width: 40%;
+    border-bottom: 1px solid #bab9b9;
+}
+.resumen .contenido-seccion .info .col table h4{
+    margin-top: 10px;
+}
+.resumen .contenido-seccion .info .col table h3{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.resumen .contenido-seccion .info .col table p{
+    font-size: 14px;
+}
+.resumen .contenido-seccion .info .col table .promedio{
+    display: block;
+    color: #940253;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.resumen .contenido-seccion .info .col table .descripcion{
+    border-left: 1px solid #bab9b9;
+    padding-left: 20px;
+    text-align: justify;
+}
+/* SECCION CONTACTO */
+.contacto{
+    background-color: #202020;
+    padding: 140px 0 100px 0;
+    color: #e6e6e6;
+    text-align: center;
+}
+.contacto .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.contacto .titulo-seccion {
+    background-color:#FFCC00; /* Color de fondo */
+    padding: 10px; /* Espacio alrededor del texto */
+    border-radius: 5px; /* Esquinas redondeadas */
+    display: inline-block;
+    border-radius: 10px;
+    color: #000000;
+    font-size: 34px;
+}
+.contacto .contenido-seccion h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.contacto .contenido-seccion .fila{
+    display: flex;
+    justify-content: space-around;
+}
+.contacto .contenido-seccion .fila .col{
+    margin-top: 50px;
+}
+.contacto .contenido-seccion .fila .col h2{
+    color:#FFCC00;
+}
+/* SECCION RESPONSIVE */
+@media screen and (max-width:800px){
+    .habilidades .contenido-seccion .fila{
+        display: block;
+    }
+    .habilidades .contenido-seccion .fila .col{
+        width: 100%;
+        text-align: center;
+    }
+    .habilidades .contenido-seccion .fila .col .cont-barra{
+        justify-content: center;
+    }
+    .sobremi .contenido-seccion .fila{
+        display: block;
+    }
+    .sobremi .contenido-seccion .fila .col{
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .resumen .contenido-seccion .info{
+        display: block;
+    }
+    .resumen .contenido-seccion .info .col{
+        width: 90%;
+        margin: auto;
+    }
+    .resumen .contenido-seccion .info .col .titulo{
+        display: block;
+        text-align: center;
+    }
+    .resumen .contenido-seccion .info .col table{
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .contacto .contenido-seccion .fila{
+        display: block;
+    }
+}
