@@ -4,7 +4,7 @@ function pedirClave() {
     // Verificar si la clave es correcta
     if (clave === "kostenko") {
         // Abrir enlace de descarga en otra pestaña del navegador
-        window.open("https:\\github.com\\Liapunovbode\\Javier\\blob\\Probando1\\CuRi.pdf", "_blank");
+        window.open("https://drive.google.com/file/d/14ESIAJPm8D_Etifgh5hB61dYnOPbd4Te/view?usp=drivesdk", "_blank");
     } else {
         alert("Clave incorrecta. Inténtalo de nuevo.");
     }
