@@ -4,7 +4,7 @@ function pedirClave() {
     // Verificar si la clave es correcta
     if (clave === "kostenko") {
         // Abrir enlace de descarga en otra pestaña del navegador
-        window.open("https://drive.google.com/file/d/14ESIAJPm8D_Etifgh5hB61dYnOPbd4Te/view?usp=drivesdk", "_blank");
+        window.open("https://drive.google.com/file/d/1BI9huV58vqmZeEl6MnSfM5shQVBWfLvG/view?usp=drive_link", "_blank");
     } else {
         alert("Clave incorrecta. Inténtalo de nuevo.");
     }
