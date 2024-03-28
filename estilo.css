@@ -355,6 +355,17 @@ html{
 }
 .resumen .contenido-seccion h3{
     text-transform: uppercase;
+    font-size: 14px;
+    background-color: #000000;
+    display: inline-block;
+    color:#FFCC00;
+    margin-top: 10px;
+    padding: 5px 10px; 
+    border: 2px solid #FFCC00;
+    border-radius: 10px;
+}
+.resumen .contenido-seccion h5{
+    text-transform: uppercase;
     font-size: 30px;
     background-color: #000000;
     display: inline-block;
@@ -364,6 +375,7 @@ html{
     border: 2px solid #FFCC00;
     border-radius: 10px;
 }
+
 .resumen .contenido-seccion .info{
     text-align: left;
     display: flex;
@@ -386,9 +398,19 @@ html{
     margin-top: 30px;
     border-collapse: collapse;
 }
+.resumen .contenido-seccion .info .titulo{
+    display: inline-block;
+    color: #000000;
+    font-weight: bold;
+    border: 2px solid #000000;
+    padding: 10px;
+    background-color: #FFCC00;
+    border-radius: 10px;
+}
 .resumen .contenido-seccion .info .col table .datos{
     width: 40%;
     border-bottom: 1px solid #bab9b9;
+    font-size: 20px;
 }
 .resumen .contenido-seccion .info .col table h4{
     margin-top: 10px;
